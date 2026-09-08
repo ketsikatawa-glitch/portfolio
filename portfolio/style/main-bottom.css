@@ -36,6 +36,18 @@
     text-align: center;
   }
 
+  .job {
+    font-size : 0.6em;
+  }
+
+  .name {
+    font-size : 1.8em;
+  }
+
+  .description {
+    font-size : 0.7em;
+  }
+
   .top-main-description {
     width: 100%;
   }

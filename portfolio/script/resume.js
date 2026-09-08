@@ -79,26 +79,26 @@ export default function Resume(container) {
   //Skills
   [
     {
-      image : '../icon/IconSkills/css-3.png',
+      image : './icon/IconSkills/css-3.png',
       name : 'CSS'
     },
     {
-      image : '../icon/IconSkills/html.png',
+      image : './icon/IconSkills/html.png',
       name : 'HTML'
     },
     {
-      image : '../icon/IconSkills/js.png',
+      image : './icon/IconSkills/js.png',
       name : 'JavaScript'
     },
     {
-      image : '../icon/IconSkills/python.png',
+      image : './icon/IconSkills/python.png',
       name : 'Python'
     }
   ].forEach((value) => {
     SkillsElem.innerHTML += 
     `
       <div class='img-skills-align'>
-        <img src=${value.image}>
+        <img src='${value.image}'>
         ${value.name}
       </div>
     `;

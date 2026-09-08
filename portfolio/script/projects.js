@@ -9,22 +9,22 @@ export default function ListProject(container) {
 
   [
   {
-    img : '../image/project/calculator.png',
+    img : './image/project/calculator.png',
     typeProject : 'Web Site',
     projectName : 'Calculator - HTML/CSS/JS',
   },
   {
-    img : '../image/project/youtubeclone.png',
+    img : './image/project/youtubeclone.png',
     typeProject : 'Web Site',
     projectName : 'Youtube Clone - HTML/CSS/JS',
   },
   {
-    img : '../image/project/2048.png',
+    img : './image/project/2048.png',
     typeProject : 'Web Site',
     projectName : '2048 Games - HTML/CSS/JS',
   },
   {
-    img : '../image/project/tictactoe.png',
+    img : './image/project/tictactoe.png',
     typeProject : 'Web Site',
     projectName : 'Tictactoe - HTML/CSS/JS',
   }
