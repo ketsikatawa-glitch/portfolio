@@ -1,0 +1,43 @@
+.About {
+  width: 30%;
+  background-color: var(--about-background);
+  padding : 10px 15px;
+  border-radius: 10px;
+  height : 250px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--line-about-color);
+}
+
+.about-text {
+  margin : 15px 0;
+  color : var(--day-night-color);
+}
+
+.description-about {
+  margin : 15px 0;
+  font-size : 14px;
+  color : var(--day-night-color);
+}
+
+.bottom-info-about {
+  margin : 15px 0;
+  color : var(--day-night-color);
+}
+
+.group-info {
+  display : flex;
+  align-items: center;
+  column-gap : 10px;
+  margin : 10px;
+  font-size : 12px;
+  color : rgb(36, 36, 36);
+  color : var(--day-night-color);
+}
+
+.icon-about {
+  width: 20px;
+}

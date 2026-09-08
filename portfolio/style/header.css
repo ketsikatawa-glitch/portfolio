@@ -1,0 +1,21 @@
+.title-header {
+  font-size : 20px;
+  font-weight: 700;
+  color : var(--day-night-color);
+}
+
+.toggle-button {
+  border : none;
+  background-color : transparent;
+  cursor : pointer;
+  border-radius : 50px;
+  transition : background-color 0.15s;
+  padding : 13px 13px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+.toggle-button:hover {
+  background-color : var(--hover-color);
+}
