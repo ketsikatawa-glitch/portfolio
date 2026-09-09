@@ -3,13 +3,7 @@
   background-color: var(--about-background);
   padding : 10px 15px;
   border-radius: 10px;
-  height : 250px;
-}
-
-.line {
-  height: 1px;
-  width: 100%;
-  background-color: var(--line-about-color);
+  height : fit-content;
 }
 
 .about-text {

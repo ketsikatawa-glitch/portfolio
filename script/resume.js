@@ -2,19 +2,19 @@ export default function Resume(container) {
   container.innerHTML = `
     <div class='container-resume js-container-resume'>
       <div class='style-resume-container'>
-        <p> Experience </p>
+        <p class='title-text-resume'> Experience </p>
         <div class='line'></div>
         <div class='style-text-resume js-experience'></div>
       </div>
 
       <div class='style-resume-container'>
-        <p> Education </p>
+        <p class='title-text-resume'> Education </p>
         <div class='line'></div>
         <div class='style-text-resume js-education'></div>
       </div>
 
       <div class='style-skills-resume'>
-        <p> Skills and Technologies </p>
+        <p class='title-text-resume'> Skills and Technologies </p>
         <div class='line'></div>
         <div class='style-skills js-skills'></div>
       </div>

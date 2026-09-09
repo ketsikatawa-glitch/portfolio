@@ -1,5 +1,6 @@
 import ListProject from './projects.js';
 import Resume from './resume.js';
+import Contact from './contact.js';
 
 const buttonDayNight = document.querySelector('.js-toggle-button');
 const imageChange = document.querySelector('.img-change');
@@ -52,6 +53,7 @@ buttonNav.forEach((button, index) => {
 
             case '3':
                 containerMain.innerHTML = '';
+                Contact(containerMain);
                 break;
         }
     });

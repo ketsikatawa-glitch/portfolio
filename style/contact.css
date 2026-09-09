@@ -1,0 +1,135 @@
+.container-contact {
+  display : flex;
+  margin-top : 20px;
+  gap : 20px;
+}
+
+.container-contact > :is(div) {
+  flex : 1;
+}
+
+.contact-social-section {
+  display : flex;
+  flex-direction: column;
+  height : auto;
+}
+
+.contact {
+  background-color : var(--box-background-color);
+  padding : 10px;
+  border-radius : 10px;
+  color : var(--day-night-color);
+}
+
+.contact > p {
+  margin : 10px 0;
+}
+
+.contact-info-container {
+  margin : 10px 0;
+}
+
+.group-contact-info {
+  margin : 20px 0;
+}
+
+.img-align-contact-info {
+  display : flex;
+  align-items : center;
+  column-gap : 10px;
+  margin-bottom : 10px;
+}
+
+.social {
+  margin : 20px 0;
+  color : var(--day-night-color);
+}
+
+.img-social-info {
+  margin-top : 20px;
+  display : grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap : 20px;
+}
+
+.img-social-info .social-apps-container{
+  display : flex;
+  flex-direction: column;
+  align-items : center;
+  background-color: var(--box-background-color);
+  padding : 10px;
+  border-radius : 10px;
+}
+
+.social-apps-container div {
+  width : 100%;
+  display : flex; 
+  gap : 10px;
+  align-items : center;
+  margin : 5px;
+}
+
+.social-apps-container p {
+  width: 100%;
+}
+
+.img-social-app {
+  width : 30px;
+}
+
+.box-title-contact-section {
+  font-size : 20px;
+}
+
+.form-section {
+  color : var(--day-night-color);
+  padding : 10px;
+  background-color : var(--box-background-color);
+  height: fit-content;
+  border-radius : 10px;
+}
+
+.form-section p {
+  margin : 10px 0;
+  font-size : 20px;
+}
+
+.form-section .input-info-message{
+  display : flex; 
+  flex-direction: column;
+  row-gap : 10px;
+}
+
+.input-info-message input {
+  padding: 10px;
+  border : solid 1px var(--day-night-color);
+}
+
+.input-info-message textarea {
+  padding : 10px;
+  border : solid 1px var(--day-night-color);
+  height : 150px;
+  overflow: hidden;
+  resize : none;
+}
+
+#input-submit {
+  border-radius : 50px;
+  border : none;
+  color : white;
+  background-color : blueviolet;
+  font-weight: 700;
+  cursor : pointer;
+  opacity : 1;
+  transition : opacity 0.15s;
+}
+
+#input-submit:hover {
+  opacity : 0.7;
+}
+
+@media (max-width : 850px) {
+  .container-contact {
+    flex-direction: column;
+  }
+}
