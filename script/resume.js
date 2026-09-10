@@ -93,6 +93,38 @@ export default function Resume(container) {
     {
       image : './icon/IconSkills/python.png',
       name : 'Python'
+    },
+    {
+      image : './icon/IconSkills/Git.png',
+      name : 'Git'
+    },
+    {
+      image : './icon/IconSkills/github.png',
+      name : 'GitHub'
+    },
+    {
+      image : './icon/IconSkills/vscode.png',
+      name : 'VSCode'
+    },
+    {
+      image : './icon/IconSkills/webpack.png',
+      name : 'Bundler'
+    },
+    {
+      image : './icon/IconSkills/Bootstrap_logo.svg.webp',
+      name : 'Bootstrap'
+    },
+    {
+      image : './icon/IconSkills/reactjs.png',
+      name : 'React JS'
+    },
+    {
+      image : './icon/IconSkills/sass.png',
+      name : 'Sass'
+    },
+    {
+      image : './icon/IconSkills/typescript.png',
+      name : 'Typescript'
     }
   ].forEach((value) => {
     SkillsElem.innerHTML += 
@@ -104,3 +136,4 @@ export default function Resume(container) {
     `;
   });
 }
+
